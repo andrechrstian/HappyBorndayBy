@@ -68,7 +68,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10,
       },
-      "+=3"
+      "+=2"
     )
     .to(
       ".two",
@@ -90,7 +90,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10,
       },
-      "+=2"
+      "+=1"
     )
     .from(".four", 0.7, {
       scale: 0.2,
@@ -102,7 +102,7 @@ const animationTimeline = () => {
     })
     .staggerTo(
       ".hbd-chatbox span",
-      1.5,
+      0.5,
       {
         visibility: "visible",
       },
@@ -151,7 +151,7 @@ const animationTimeline = () => {
         z: 10,
         opacity: 0,
       },
-      "+=1.5"
+      "+=1"
     )
     .to(
       ".idea-5 span",
@@ -160,7 +160,7 @@ const animationTimeline = () => {
         rotation: 90,
         x: 8,
       },
-      "+=1.4"
+      "+=1"
     )
     .to(
       ".idea-5",
@@ -169,7 +169,7 @@ const animationTimeline = () => {
         scale: 0.2,
         opacity: 0,
       },
-      "+=2"
+      "+=1"
     )
     .staggerFrom(
       ".idea-6 span",
@@ -192,7 +192,7 @@ const animationTimeline = () => {
         ease: Expo.easeOut,
       },
       0.2,
-      "+=1.5"
+      "+=1"
     )
     .staggerFromTo(
       ".baloons img",
@@ -217,7 +217,7 @@ const animationTimeline = () => {
         y: -25,
         rotationZ: -45,
       },
-      "-=2"
+      "-=1"
     )
     .from(".hat", 0.5, {
       x: -100,
